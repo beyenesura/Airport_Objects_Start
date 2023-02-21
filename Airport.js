@@ -1,12 +1,12 @@
 class Airport {
-	constructor(name) {
-		this.name = name
-		this.planes = //what would be the best datatype?
-	}
+  constructor(name) {
+    this.name = name;
+    this.planes = [];
+  }
 
-	addPlane(plane) {
-		//use an array method
-	}
+  addPlane(plane) {
+    this.planes.push(plane);
+  }
 }
 
 module.exports = Airport
